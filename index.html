@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+
+
+    <!-- ========= FAV ICON ===========  -->
+
+    <link rel="shortcut icon" href="img/Artboard 2.png" type="image/x-icon">
+
+    <!-- ============== BOXICONS =============  -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- =========== Swiper CSS ===========  -->
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- =========== CSS link ===========  -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Akshay Palekar</title>
+    <script>
+        function openGmailCompose() {
+            var url = "https://mail.google.com/mail/?view=cm&fs=1&to=palekarakshay10@gmail.com";
+            var width = 800;
+            var height = 600;
+            var left = (screen.width - width) / 2;
+            var top = (screen.height - height) / 2;
+            window.open(url, "_blank", "width=" + width + ",height=" + height + ",top=" + top + ",left=" + left);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ================ Header ============  -->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Akshay</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+
+                            <i class='bx bx-book'></i>
+
+
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class='bx bxs-graduation'></i>
+
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Theme change button  -->
+
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+
+        </nav>
+
+    </header>
+
+    <!-- ============= Main ====================  -->
+
+    <main class="main">
+        <!-- ================ HOME =============  -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting"> Hello, I'm</span>
+                    <h1 class="home__name">Akshay Palekar</h1>
+                    <h3 class="home__education">Software Developer</h3>
+
+
+                    <div class="home__buttons">
+                        <a download="" href="img/pdf/Resume (13).pdf" class="button button--ghost" target="_blank">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+
+                </div>
+
+                <div class="home__handle">
+                    <img src="img/akshay image.jpeg" alt="img not found" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/akshay-palekar-52490a23b/" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/akshay_palekar9534/" target="_blank" class="home__social-link">
+                        <!-- <i class='bx bxl-instagram'></i> -->
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+
+                    <a href="https://github.com/akshay9534" target="_blank" class="home__social-link">
+                        <!-- <i class='bx bxl-facebook-square'></i> -->
+                        <i class='bx bxl-github'></i>
+
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================== ABOUT =======================  -->
+
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="img/codingprogrammer.webp" alt="img not found" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+
+                            <!-- <i class='bx bx-user-pin'></i> -->
+                            <i class='bx bxs-face about__icon'></i>
+                            <h3 class="about__title">Education</h3>
+                            <span class="about__subtitle">
+                                Bachelor of Engineering
+                            </span>
+
+                        </div>
+
+                        <div class="about__box story__box">
+                            <!-- <i class='bx bx-briefcase-alt'></i> -->
+                            <!-- <i class='bx bx-history'></i> -->
+                            <!-- <i class='bx bx-rewind'></i> -->
+                            <h3 class="about__title story__title "> About Me</h3>
+                            <span class="about__subtitle">
+                                <i class='bx bxs-hand-down story__icon '></i>
+                            </span>
+
+                        </div>
+
+                        <div class="about__box">
+
+                            <!-- <i class='bx bx-user-voice'></i> -->
+                            <i class='bx bxs-microphone about__icon'></i>
+                            <!-- <i class='bx bx-fast-forward'></i> -->
+                            <h3 class="about__title"> Languages I Speak</h3>
+                            <span class="about__subtitle"> English , Hindi, Marathi</span>
+
+                        </div>
+                    </div>
+                    <p class="about__description">
+                        I am a passionate software developer with over 2.5 years of experience in building scalable and
+                        efficient web applications. My expertise includes front-end technologies like React.js, HTML,
+                        CSS, JavaScript, Tailwind CSS, AJAX, and jQuery, as well as back-end development with Java,
+                        Spring Boot, and MySQL. I thrive on solving complex problems and creating seamless user
+                        experiences. Constantly learning and adapting, I stay up-to-date with the latest technologies to
+                        deliver high-quality solutions.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ============================ SKILLS ===========================  -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- ============================ SKILLS 1 ===========================  -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class='bx bx-code-curly skills__icon'></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend development</h1>
+                                <span class="skills__subtitle">skills</span>
+                            </div>
+
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__bootstrap"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React.js</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Tailwind css</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__material"></span>
+                                </div>
+
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Redux</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__redux"></span>
+                                </div>
+
+                            </div>
+
+                        </div> <!--skills list grid end-->
+                    </div> <!--end of frontend skill content-->
+
+                    <!-- ================== SKILLS 2 ============================  -->
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bx-server skills__icon'></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend Development</h1>
+                                <span class="skills__subtitle">skills</span>
+                            </div>
+
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MYSQL</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Spring Boot</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Spring</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__spring"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Spring Boot</h3>
+                                    <span class="skills__number">76%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__springB"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Hibernate</h3>
+                                    <span class="skills__number">74%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__hibernate"></span>
+                                </div>
+                            </div> -->
+
+
+                        </div> <!--backend skill list end-->
+                    </div> <!-- backend skill content end-->
+
+                </div> <!--- 2 div together end front & backend-->
+
+                <div>
+                    <!-- ================== SKILLS 3 ============================  -->
+
+
+
+                </div> <!--2nd div only for design skill-->
+
+            </div>
+        </section>
+
+        <!-- ====================== Qualification ==================== -->
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification & Experience</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+
+                    <div class="qualification__button button--flex">
+                        <i class='bx bxs-graduation qualification__icon'></i>
+                        Education
+                    </div>
+
+                    <!-- <div class="qualification__button button--flex">
+                 <i class='bx bx-briefcase-alt-2 qualification__icon'></i>
+                 work
+            </div> -->
+                </div>
+                <div class="qualification__sections">
+                    <!-- ================= Qualification Content 1 ================  -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- =============== QUALIFICATION 1 ====================== -->
+                        <div class="qualification__data">
+                            <div class="hsc">
+                                <h3 class="qualification__title">Higher Secondary School</h3>
+                                <span class="qualification__subtitle">Maharashtra State Board</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i>
+                                    2014 - 2016
+                                </div>
+                            </div>
+
+                            <div class="gol">
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- =============== QUALIFICATION 2 ====================== -->
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div class="gol">
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+
+                            <div class="etc">
+                                <h3 class="qualification__title"> Bachelor of Engineering</h3>
+                                <span class="qualification__subtitle">Savitribai Phule Pune University</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i>
+                                    2016 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- =============== QUALIFICATION 3 ====================== -->
+                        <div class="qualification__data">
+                            <div class="hsc">
+                                <h3 class="qualification__title">Full Stack Development Certification</h3>
+                                <span class="qualification__subtitle">Itvedant Training Institue,Pune</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i>
+                                    2021 - 2022
+                                </div>
+                            </div>
+
+                            <div class="gol">
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                         <!-- =============== QUALIFICATION 4 ====================== -->
+                         <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                 <span class="qualification__line"></span> 
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Trainee Software Developer </h3>
+                                <span class="qualification__subtitle">S Square SoftTech Solutions,Pune</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i>
+                                    Jun 2022 - May 2023
+                                </div>
+                            </div>
+
+                        </div>
+                         <!-- =============== QUALIFICATION 5 ====================== -->
+                         <div class="qualification__data">
+                            <div class="hsc">
+                                <h3 class="qualification__title">Software Developer</h3>
+                                <span class="qualification__subtitle">Techence It Solutions,Pune</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bx-calendar'></i>
+                                    Jun 2023 - currently Working
+                                </div>
+                            </div>
+
+                            <div >
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div> <!---qualification content end-->
+
+
+
+
+
+                </div> <!---qualification sections end-->
+            </div> <!--qualification__container container-->
+        </section>
+
+        <!-- =================== PORTFOLIO ==========================  -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Work</h2>
+            <!-- <div class="portfolio-buttons">
+        <button id="all-projects-button" class="portfolio-button button">All Projects</button>
+        <button id="personal-projects-button" class="portfolio-button button">Personal Projects</button>
+        <button id="live-projects-button" class="portfolio-button button">Live Projects</button>
+    </div> -->
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- =================== PORTFOLIO  1 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/cinemaxwatch.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+                            <h3 class="portfolio__title">A Movie Search App</h3>
+                            <p class="portfolio__description"> Built using React Js. Integrated TMDB API to fetch
+                                movies/Tv shows data.</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/Cinemax" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="https://cinemaxwatch.netlify.app/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- =================== PORTFOLIO  2 ==========================  -->
+
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/Grilli-1.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title"> A Restaurant Website</h3>
+                            <p class="portfolio__description">Implemented frontend efficiently through CSS flexbox and
+                                grid techniques.</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/Grilli" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="projects/Grilli/index.html" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //wedding booking  -->
+                    <!-- =================== PORTFOLIO  4 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide live-project">
+                        <img src="img/wedventurz1.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title">Wedding Booking Website (live)</h3>
+                            <p class="portfolio__description">Utilized Redux and Router for efficient state management
+                                and seamless navigation, Implemented reusable dynamic components, significantly reducing
+                                redundant lines of code and enhancing maintainability.</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+
+                                <a href="https://www.wedventurz.com/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== PORTFOLIO  5 ==========================  -->
+
+                    <!-- =================== PORTFOLIO  7 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/store.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title">A E-Commerce Website</h3>
+                            <p class="portfolio__description">Landing page of a e-commerce website to view
+                                products/prices/explore options. Utilized HTML , CSS and JavaScript to construct
+                                PageLayout and other functionalities.</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/e-Store" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="projects/eStore/index.html" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- live projects   -->
+
+
+                    <!-- =================== PORTFOLIO  4 ==========================  -->
+                    <!-- =================== PORTFOLIO  3 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/wea-1.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+                            <h3 class="portfolio__title">Weather App</h3>
+                            <p class="portfolio__description">Weather App that shows Temperature and Humidity According
+                                to user's Location. Integrated OpenWeatherMap API</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/Weather-App" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="projects/WeatherApp/index.html" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // corpeventz -->
+                    <!-- =================== PORTFOLIO  4 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide live-project">
+                        <img src="img/corpeventz2.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title">Corporate Events Booking Website (live)</h3>
+                            <p class="portfolio__description">Utilized React Js and AOS for scoll-triggered animation
+                            </p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+
+                                <a href="https://www.corpeventz.com/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== PORTFOLIO  5 ==========================  -->
+
+                    <!-- =================== PORTFOLIO  4 ==========================  -->
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/fitlife-1.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title"> A Gym Website Landing Page</h3>
+                            <p class="portfolio__description">Crafted navigation bar & toggle functionality using
+                                Javascript. Crafted CSS animations.</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/Fitlife" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="projects/Fitlife/index.html" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- //letzparty  -->
+
+                    <div class="portfolio__content grid swiper-slide live-project">
+                        <img src="img/letzparty.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+
+                            <h3 class="portfolio__title">Party Organizing Website (live)</h3>
+                            <p class="portfolio__description">Utilized React router for navigating , React Js
+                                effectively reduced code./</p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+
+                                <a href="https://www.letzpartyy.com/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- =================== PORTFOLIO  8==========================  -->
+                    <div class="portfolio__content grid swiper-slide personal-project">
+                        <img src="img/todo1.jpg" alt="img not found" class="porfolio__img">
+
+                        <div class="portfolio data">
+                            <h3 class="portfolio__title">Todo App</h3>
+                            <p class="portfolio__description">Add , Update , Delete Task( A todo App using React Js)
+                            </p>
+                            <div style="display: flex;justify-content:center;gap: 20px;">
+                                <a href="https://github.com/swaralipanchal/Todo-App" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Github Repo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                                <a href="https://swaralipanchal.github.io/Todo-App/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Live Demo
+                                    <i class='bx bx-right-arrow-alt button__icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== PORTFOLIO  5 ==========================  -->
+                    <!-- <div class="portfolio__content grid swiper-slide">
+                <img src="img/musicplayer.jpg" alt="img not found" class="porfolio__img">
+
+                <div class="portfolio data">
+
+                    <h3 class="portfolio__title">A Web Music Player</h3>
+                    <p class="portfolio__description">User have all the controls of the music being played.</p>
+                    <a href="projects/MusicPlayer/index.html" target="_blank" class="button button--flex button--small portfolio__button">
+                        Demo 
+                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                    </a>
+                </div>                
+            </div> -->
+
+                    <!-- =================== PORTFOLIO  6 ==========================  -->
+                    <!-- <div class="portfolio__content grid swiper-slide">
+                <img src="img/filmlane.jpg" alt="img not found" class="porfolio__img">
+
+                <div class="portfolio data">
+
+                    <h3 class="portfolio__title">A Movie website</h3>
+                    <p class="portfolio__description">Responsive UI to view movies/shows</p>
+                    <a href="projects/Filmlane/index.html" target="_blank" class="button button--flex button--small portfolio__button">
+                        Demo 
+                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                    </a>
+                </div>                
+            </div>
+              -->
+
+
+
+                </div>
+                <!-- add swiper-pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!-- ======================= CONTACT =========================== -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">
+                Get In Touch
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk To Me</h3>
+                        <div class="contact__info">
+
+                            <!-- card1  -->
+
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail bx-tada contact__card-icon'></i>
+                                <!-- <i class='bx bxl-gmail'></i> -->
+
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">palekarakshay10@gmail.com</span>
+
+                                <a href="#" onclick="openGmailCompose(); return false;" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <!-- card2  -->
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp bx-tada contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">+91 8484099600</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=8484099600&text=Hello, lets talk!"
+                                    target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <!-- card3  -->
+
+                            <div class="contact__card">
+                                <i class='bx bxl-instagram bx-tada contact__card-icon'></i>
+                                <h3 class="contact__card-title">Instagram</h3>
+                                <span class="contact__card-data">@Chat</span>
+
+                                <a target="_blank" class="contact__button"> <!-- href="https://ig.me/m/brikzee" -->
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </span>
+        </section>
+        <!-- ======================= FOOTER ==============================  -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Akshay</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <a href="https://github.com/akshay9534" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/akshay_palekar9534/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/akshay-palekar-52490a23b/" target="_blank"
+                        class="footer__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Akshay Palekar | 2025 | All rights reserved
+                </span>
+
+            </div>
+        </footer>
+
+        <!-- try  -->
+
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- try end  -->
+
+
+
+
+    </main>
+
+
+    <!-- ========================= SWIPER JS ============================  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ====================jquey link ===================  -->
+
+
+    <!-- ================== Main.js link ================== -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html
